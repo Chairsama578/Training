@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+joblib
+regex
+unidecode
+wordcloud

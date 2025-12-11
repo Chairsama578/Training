@@ -1,0 +1,13 @@
+{
+    "accuracy": 0.8979591836734694,
+    "model_name": "XGBClassifier",
+    "num_samples": 195,
+    "train_size": 146,
+    "test_size": 49,
+    "labels": [
+        "EDUCATION",
+        "POLITICS",
+        "SPORTS",
+        "WEATHER"
+    ]
+}
