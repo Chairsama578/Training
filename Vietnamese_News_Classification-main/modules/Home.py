@@ -1,5 +1,5 @@
 import streamlit as st
-
+import os
 def show():
 
     st.markdown("<h3>Giới thiệu Đề tài</h3>", unsafe_allow_html=True)
@@ -19,4 +19,10 @@ def show():
         """
     )
 
-    st.image("rose.png", width=300)
+    def show():
+    # Lấy đường dẫn thư mục gốc của project
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    img_path = os.path.join(root_dir, "rose.png")
+
+    st.image(img_path, width=300)
+
