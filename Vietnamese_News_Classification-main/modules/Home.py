@@ -19,10 +19,10 @@ def show():
         """
     )
 
-    def show():
-    # Lấy đường dẫn thư mục gốc của project
+
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     img_path = os.path.join(root_dir, "rose.png")
 
     st.image(img_path, width=300)
+
 
