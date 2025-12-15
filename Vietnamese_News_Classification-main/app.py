@@ -64,10 +64,8 @@ st.markdown(
     """
     <div style="padding:18px; background:#ffffdd; border-radius:10px;">
         <b>Students:</b><br>
-        - Student 1: ... email<br>
-        - Student 2: ... email<br>
-        - Student 3: ... email<br>
-        - Student 4: ... email<br>
+        - Student 1: Võ Hoàng Kim Ngân email<br>
+        - Student 2: Nhan Gia Huy email<br>
     </div>
     """,
     unsafe_allow_html=True
@@ -97,4 +95,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
