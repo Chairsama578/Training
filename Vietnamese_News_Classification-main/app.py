@@ -62,7 +62,7 @@ st.write("---")
 # --- STUDENTS BOX ---
 st.markdown(
     """
-    <div style="padding:18px; background:#ffffdd; border-radius:10px;">
+    <div style="padding:18px; url('OIP.webp');; border-radius:10px;">
         <b>Students:</b><br>
         - Student 1: Võ Hoàng Kim Ngân email<br>
         - Student 2: Nhan Gia Huy email<br>
@@ -95,5 +95,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
