@@ -4,7 +4,7 @@ import os
 #from torch import div
 
 st.set_page_config(
-    page_title="Vietnamese News Classification Using XGBoost",
+    page_title="Topic 3. Recyclable Waste Image Recognition Using AutoML Vision and Proposing an Automated Classification Solution",
     layout="wide"
 )
 
@@ -18,7 +18,7 @@ with st.container():
 
     with col2:
         st.markdown(
-            "<h2 style='text-align:center;'>Topic 2: Developing a Vietnamese News Classification System Using XGBoost</h2>",
+            "<h2 style='text-align:center;'>Topic 3. Recyclable Waste Image Recognition Using AutoML Vision and Proposing an Automated Classification Solution</h2>",
             unsafe_allow_html=True
         )
 
@@ -95,6 +95,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
